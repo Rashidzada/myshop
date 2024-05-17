@@ -28,3 +28,7 @@ def portfolio_details(requset):
 
 def services_details(request):
     return render(request,'services_details.html')
+
+
+def login_view(request):
+    return render(request,'login_view.html')
